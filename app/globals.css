@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #E01E84;
+  --brand-light: #FDF2F7;
+  --gunmetal: #2D2D2D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #E01E84;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
